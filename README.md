@@ -8,3 +8,4 @@ Esta es una app sencilla re-escrita desde 0 para entender el funcionamiento de c
 
 # Capturas de pantalla
 ![Alt text](capturas/SimulatorScreenShot-iPhone_11-HelloWorld.png "Hola Mundo")
+![Alt text](capturas/SimulatorScreenShot-iPhone_11-Final.png "Proyecto final")
