@@ -7,19 +7,26 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('Titulo 🖐'),
-          centerTitle: true,
-          elevation: 10.0,
+      appBar: AppBar(
+        title: Text('Titulo 🖐'),
+        centerTitle: true,
+        elevation: 10.0,
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            Text('Número de clicks:', style: estiloTexto),
+            Text('0', style: estiloTexto)
+          ],
+          mainAxisAlignment: MainAxisAlignment.center,
         ),
-        body: Center(
-          child: Column(
-            children: [
-              Text('Número de clicks:', style: estiloTexto),
-              Text('0', style: estiloTexto)
-            ],
-            mainAxisAlignment: MainAxisAlignment.center,
-          ),
-        ));
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          print('Hola Mundo');
+        },
+        child: Icon(Icons.bookmark_border),
+      ),
+    );
   }
 }
